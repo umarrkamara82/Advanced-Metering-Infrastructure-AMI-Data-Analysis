@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d6ed8ed46525b732ccb2b1fddc90b59a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d6ed8ed46525b732ccb2b1fddc90b59a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d6ed8ed46525b732ccb2b1fddc90b59a = L.map(
+                "map_d6ed8ed46525b732ccb2b1fddc90b59a",
+                {
+                    center: [8.5, -13.2],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_25300303647d13b168c2661f05ae79b1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_25300303647d13b168c2661f05ae79b1.addTo(map_d6ed8ed46525b732ccb2b1fddc90b59a);
+        
+    
+            var marker_f8d35731f1b25f97826ca0658f362118 = L.marker(
+                [8.5, -13.2],
+                {
+}
+            ).addTo(map_d6ed8ed46525b732ccb2b1fddc90b59a);
+        
+    
+            var icon_9dbe4a22de0d8f64f59af09f33f85724 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f8d35731f1b25f97826ca0658f362118.setIcon(icon_9dbe4a22de0d8f64f59af09f33f85724);
+        
+    
+        var popup_481639eeb5923aed8906d26438f05dfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f29ff41f3483cc8b79ca8abeb89263e8 = $(`<div id="html_f29ff41f3483cc8b79ca8abeb89263e8" style="width: 100.0%; height: 100.0%;">Location: East<br>Total Consumption: 6616121.14 kWh</div>`)[0];
+                popup_481639eeb5923aed8906d26438f05dfd.setContent(html_f29ff41f3483cc8b79ca8abeb89263e8);
+            
+        
+
+        marker_f8d35731f1b25f97826ca0658f362118.bindPopup(popup_481639eeb5923aed8906d26438f05dfd)
+        ;
+
+        
+    
+    
+            var marker_93b1bb88de6c36ef1ae83d2aefd6066d = L.marker(
+                [8.5, -13.2],
+                {
+}
+            ).addTo(map_d6ed8ed46525b732ccb2b1fddc90b59a);
+        
+    
+            var icon_c25cde5cf32fef3c5ed1c56427ab11b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_93b1bb88de6c36ef1ae83d2aefd6066d.setIcon(icon_c25cde5cf32fef3c5ed1c56427ab11b3);
+        
+    
+        var popup_b44beac44c7aaf50e6057981419b5383 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc972de5377c6d61ff66c9488cd756fd = $(`<div id="html_dc972de5377c6d61ff66c9488cd756fd" style="width: 100.0%; height: 100.0%;">Location: North<br>Total Consumption: 6611355.62 kWh</div>`)[0];
+                popup_b44beac44c7aaf50e6057981419b5383.setContent(html_dc972de5377c6d61ff66c9488cd756fd);
+            
+        
+
+        marker_93b1bb88de6c36ef1ae83d2aefd6066d.bindPopup(popup_b44beac44c7aaf50e6057981419b5383)
+        ;
+
+        
+    
+    
+            var marker_eea44abbcc67a907ac0aeb8b6ee2cbce = L.marker(
+                [8.5, -13.2],
+                {
+}
+            ).addTo(map_d6ed8ed46525b732ccb2b1fddc90b59a);
+        
+    
+            var icon_eedbef7f7eb911a941366f39aea0cc97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eea44abbcc67a907ac0aeb8b6ee2cbce.setIcon(icon_eedbef7f7eb911a941366f39aea0cc97);
+        
+    
+        var popup_d9c27a1f37aa15495b10497d965e03e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87be291b4ada36e74bef70ae38cb6b8c = $(`<div id="html_87be291b4ada36e74bef70ae38cb6b8c" style="width: 100.0%; height: 100.0%;">Location: South<br>Total Consumption: 6618813.32 kWh</div>`)[0];
+                popup_d9c27a1f37aa15495b10497d965e03e8.setContent(html_87be291b4ada36e74bef70ae38cb6b8c);
+            
+        
+
+        marker_eea44abbcc67a907ac0aeb8b6ee2cbce.bindPopup(popup_d9c27a1f37aa15495b10497d965e03e8)
+        ;
+
+        
+    
+    
+            var marker_8c19a62bccff6203d78ba967ebfb70fa = L.marker(
+                [8.5, -13.2],
+                {
+}
+            ).addTo(map_d6ed8ed46525b732ccb2b1fddc90b59a);
+        
+    
+            var icon_28e1ae135fe6971b0a8426e6a7d3ff6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8c19a62bccff6203d78ba967ebfb70fa.setIcon(icon_28e1ae135fe6971b0a8426e6a7d3ff6e);
+        
+    
+        var popup_b1bde2c1e7b0ee5d402afe4f038929b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b39c1e26cb9d15ee6a87aa448cd5ef9 = $(`<div id="html_6b39c1e26cb9d15ee6a87aa448cd5ef9" style="width: 100.0%; height: 100.0%;">Location: West<br>Total Consumption: 13229697.06 kWh</div>`)[0];
+                popup_b1bde2c1e7b0ee5d402afe4f038929b7.setContent(html_6b39c1e26cb9d15ee6a87aa448cd5ef9);
+            
+        
+
+        marker_8c19a62bccff6203d78ba967ebfb70fa.bindPopup(popup_b1bde2c1e7b0ee5d402afe4f038929b7)
+        ;
+
+        
+    
+</script>
+</html>
